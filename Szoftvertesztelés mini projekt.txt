@@ -1,0 +1,333 @@
+Kiindulás: szeretnék szoftvertesztelés tantárgyból a technikus osztályban olyan gyakorlati feladatot adni, amiben a diákok egy kicsi projekten, ami kitalált is lehet, gyakorolni tudják a tesztelési módszereket, dokumentációt, prezentációt két fős kis csapatokban, ami segíthet nekik a jövő évben készítendő projektmunka II tantárgyukhoz, amiben 3 fős teamekben kell megvalósítaniuk egy szoftveres projektet fejlesztésestől tesztelésestől önállóan és prezentálniuk kell egy vizsgabizottság előtt. Erre való ráhangolódásképp szeretnék kimondottan szoftverfejlesztési projektet, ami hasonlít kicsiben erre.
+
+
+Ez egy nagyszerű kezdeményezés, amely elősegíti a diákok projektalapú tanulását, és felkészíti őket a következő év kihívásaira! Az alábbiakban bemutatok egy gyakorlatot, amely megfelel ezeknek a céloknak:
+
+---
+
+### **Szoftvertesztelési gyakorlat: Mini projekt fejlesztéssel és teszteléssel**
+**Cél:**  
+A diákok gyakorolják a szoftverfejlesztés és tesztelés alapvető lépéseit, miközben fejlesztik csapatmunkájukat, dokumentációs és prezentációs készségeiket.
+
+#### **Projektötlet: Egyszerű To-Do Lista Webalkalmazás**
+**Feladat:** Készítsenek egy egyszerű webalkalmazást, amely lehetővé teszi a felhasználók számára, hogy feladatokat adjanak hozzá, jelöljék őket elvégzettként, és töröljék őket.  
+
+---
+
+### **Feladatok lebontása:**
+1. **Projekt előkészítése (1 óra):**
+   - **Célmeghatározás:** A csapat határozza meg a projekt célját (pl. "Egy egyszerű To-Do lista webalkalmazás fejlesztése").
+   - **Specifikáció készítése:** Rövid specifikáció, amely tartalmazza:
+     - Funkciók (feladat hozzáadása, törlése, státusz módosítása).
+     - Minimum követelmények (pl. működjön böngészőben).
+   - **Feladatmegosztás:** Határozzák meg, ki mit fog csinálni (fejlesztés, tesztelés, dokumentáció).
+
+2. **Fejlesztés (2 óra):**
+   - **Technológia választás:** HTML/CSS/JavaScript vagy egy egyszerű keretrendszer (pl. React, ha már tanulták).
+   - **Prototípus készítése:** Alap funkciók implementálása.
+   - **Kód kommentálása:** A későbbi tesztelés és értékelés megkönnyítése érdekében.
+
+3. **Tesztelési szakasz (2 óra):**
+   - **Tesztterv készítése:** A diákok írjanak egy egyszerű teszttervet, amely tartalmazza:
+     - Funkcionális tesztek (pl. hozzáad-e új feladatot?).
+     - Hibakezelés tesztelése (pl. üres inputok).
+     - Felhasználói élmény ellenőrzése.
+   - **Tesztelés végrehajtása:** Végezzenek manuális teszteket a terv alapján.
+   - **Hibajegyzék vezetése:** Dokumentálják a talált hibákat (hiba leírása, javítás státusza).
+
+4. **Dokumentáció és prezentáció (1 óra):**
+   - **Dokumentáció:** Készítsenek egy egyszerű, de rendezett projektleírást, amely tartalmazza:
+     - A projekt célját és funkcióit.
+     - A fejlesztési folyamat összefoglalását.
+     - A tesztelési eredményeket és a hibajavításokat.
+   - **Prezentáció:** Készítsenek egy rövid (5 perces) bemutatót a projekt céljairól, a fejlesztési folyamatról és a tanulságokról.
+
+---
+
+### **Értékelési szempontok:**
+1. **Csapatmunka:** Mennyire hatékonyan dolgoztak együtt?
+2. **Projektmegvalósítás:** A kész projekt megfelel-e a specifikációnak?
+3. **Tesztelési folyamat:** Megfelelően dokumentálták-e és hajtották végre a teszteket?
+4. **Dokumentáció:** Átlátható és érthető a dokumentáció?
+5. **Prezentáció:** Magabiztosak és strukturáltak voltak-e a bemutató során?
+
+---
+
+Ez a feladat nemcsak a technikai készségeiket fejleszti, hanem segít abban is, hogy megtanulják a projektmunka és csapatmunka jelentőségét, ami a későbbi vizsgaprojektjükhöz nélkülözhetetlen lesz. Ha szeretnél, szívesen segítek részletesebben kidolgozni a feladat egyes részeit! 😊
+
+
+Nagyszerű ötlet, hogy együttműködést segítő eszközöket és automatizált tesztelést is beépítesz a feladatba! Ez tovább fokozza a diákok szakmai készségeinek fejlődését. Az alábbiakban az eredeti tervet bővítem ezekkel az elemekkel.
+
+---
+
+### **Bővített gyakorlat: Szoftverfejlesztési mini projekt**  
+**Projektötlet:** Továbbra is egy **To-Do lista webalkalmazás**, kibővítve az alábbi elemekkel:  
+- **Együttműködési eszközök:** Trello/Jira és GitHub.
+- **Automatizált tesztelés:** Egyszerű tesztelési keretrendszer használata (pl. Jest, Cypress).
+
+---
+
+### **Feladatok lebontása (bővítve):**
+
+#### **1. Projekt előkészítése (1 óra):**  
+- **Célmeghatározás és specifikáció:** Ugyanaz, mint az eredeti tervben.  
+- **Együttműködési eszközök beállítása:**  
+  - **Trello/Jira:**  
+    - Hozzanak létre egy táblát, amelyen nyomon követhetik a feladatok állapotát (pl. "Teendő", "Folyamatban", "Kész").  
+    - Minden csapattag hozzon létre és kezeljen néhány kártyát a saját feladatairól.  
+  - **GitHub:**  
+    - Hozzanak létre egy privát vagy nyilvános repository-t, ahol a kódot verziókövetik.  
+    - Használják az Issue-kat a feladatok dokumentálására, és legalább egyszer próbálják ki a Pull Request funkciót.  
+
+---
+
+#### **2. Fejlesztés (2 óra):**  
+- **Technológia választás:** HTML/CSS/JavaScript (vagy React, ha tanulták).  
+- **Kódolás GitHub-on keresztül:**  
+  - Osszák meg a feladatokat (pl. egyik diák az UI-t készíti, a másik az adatkezelést).  
+  - Verziókezeléssel dolgozzanak: minden commit üzenet legyen rövid, de informatív.  
+
+---
+
+#### **3. Tesztelési szakasz (2 óra):**  
+- **Tesztterv készítése:** Az eredeti terv szerint.  
+- **Automatizált tesztelés (újdonság):**  
+  - **Eszköz választás:**  
+    - **Frontend tesztekhez:** [Jest](https://jestjs.io/) vagy [Cypress](https://www.cypress.io/).  
+    - **Használati példa (Jest):**  
+      - Teszteljék az alkalmazás funkcióit (pl. új feladat hozzáadása).  
+      - Írjanak legalább két tesztet, például:  
+        ```javascript
+        test("Új feladat hozzáadása", () => {
+          const tasks = [];
+          const newTask = "Vásárlás";
+          tasks.push(newTask);
+          expect(tasks).toContain("Vásárlás");
+        });
+        ```  
+    - **Cypress (automatizált UI teszt):**  
+      - Telepítés után hozzanak létre egy egyszerű tesztet, amely megnyitja az alkalmazást, hozzáad egy feladatot, és ellenőrzi, hogy megjelenik.  
+
+---
+
+#### **4. Dokumentáció és prezentáció (1 óra):**  
+- **Dokumentáció:**  
+  - Tervek és specifikációk.  
+  - Tesztelési eredmények (manuális és automatizált tesztek).  
+  - GitHub és Trello/Jira felhasználásának rövid bemutatása (képernyőfotókkal).  
+- **Prezentáció:**  
+  - A csapat mutassa be az alkalmazást, a fejlesztési folyamatot és a tanulságokat.
+
+---
+
+### **Értékelési szempontok (kiegészítve):**  
+1. **Csapatmunka:** Hogyan használták a Trello/Jira és GitHub funkcióit?  
+2. **Automatizált tesztelés:** Legalább egy teszt helyes működése.  
+3. **Projektmegvalósítás és dokumentáció:** A korábban meghatározott szempontok szerint.  
+
+---
+
+Ez a bővített verzió lehetővé teszi, hogy a diákok megtapasztalják, hogyan működnek a modern fejlesztési projektekben használatos eszközök és módszerek. Ha szeretnéd, készíthetek hozzá részletesebb leírásokat, példakódokat vagy akár oktatóanyagokat! 😊
+
+
+Készítek részletesebb útmutatókat és példákat a feladat minden fontos eleméhez, hogy megkönnyítsem a diákok munkáját, és te is egyszerűbben tudj oktatni. Az alábbi bontásban készítem el az anyagokat:
+
+---
+
+### **1. Trello/Jira használatának bemutatása**
+- Példa egy Trello-tábla struktúrájára, kártyákra, és azok kezelésére.
+- Rövid bemutató Jira-projekthez, például issue-k és sprintek létrehozása.
+
+---
+
+### **2. GitHub gyakorlati útmutató**
+- Repository létrehozása és beállítása.
+- Verziókezelési alapok: commit, push, pull, branch használat.
+- Pull request példák és issue kezelés.
+
+---
+
+### **3. Automatizált tesztelés**
+- **Jest példa:**
+  - Telepítési útmutató.
+  - Legalább 2-3 tesztkód bemutatása egy egyszerű To-Do alkalmazáshoz.
+- **Cypress példa:**
+  - Alapvető telepítési lépések.
+  - Egy alapvető automatizált teszt (például "Feladat hozzáadása" UI-teszt).
+
+---
+
+### **4. Példa alkalmazás (To-Do lista)**
+- Egyszerű HTML/CSS/JavaScript projekt (vagy React, ha a diákok tanulták).
+- Kódvázlat és fájlstruktúra bemutatása.
+
+---
+
+### **5. Prezentációs segédanyag**
+- Minta prezentáció diákok számára, amely tartalmazza:  
+  - Projekt célját és funkcionalitását.
+  - Használt eszközöket (Trello/Jira, GitHub, tesztelési eszközök).
+  - Tesztelési eredményeket.
+  - Nehézségeket és tanulságokat.
+
+---
+
+Elkezdem összeállítani ezeket az anyagokat. Az egyszerűbb felépítés érdekében külön dokumentumot készítek hozzá. Kérlek, erősítsd meg, hogy így megfelelő, vagy szeretnél változtatni a struktúrán! 😊
+
+
+
+Természetesen! Az ötlet, hogy a technológiák eltérnek, de a projekt célja azonos (pl. **To-Do Lista**), kiváló, mert így a diákok a szoftverfejlesztés közös alapjaira és a technológiaspecifikus különbségekre is ráéreznek. Az alábbiakban bemutatom a **To-Do Lista alkalmazás** WPF-re és SQLite-ra adaptált változatát.
+
+---
+
+### **To-Do Lista alkalmazás (WPF, C#, SQLite)**
+
+**Projektcél:**  
+Egy asztali alkalmazás, amely lehetővé teszi a felhasználók számára teendők hozzáadását, megtekintését, szerkesztését és törlését. Az alkalmazás WPF-et használ az UI-hoz és SQLite-ot az adatok tárolásához.
+
+---
+
+### **Feladatok lebontása:**
+
+#### **1. Projekt előkészítése (1 óra):**  
+- **Célmeghatározás:**  
+  - A felhasználók képesek legyenek:
+    - Új teendők hozzáadása (pl. cím, határidő, státusz: elvégzett/nem elvégzett).  
+    - Teendők listázása egy táblázatban.  
+    - Teendők szerkesztése és törlése.
+  - SQLite használata az adatok tárolására.  
+- **Környezet előkészítése:**  
+  - Visual Studio projekt létrehozása (WPF App).
+  - `System.Data.SQLite` NuGet csomag telepítése.  
+
+---
+
+#### **2. Adatbázis-kapcsolat létrehozása (1 óra):**  
+- **Adatbázis előkészítése:**  
+  - `Tasks.db` néven hozzanak létre egy SQLite adatbázist.  
+  - Adattábla létrehozása:
+    ```sql
+    CREATE TABLE Tasks (
+        Id INTEGER PRIMARY KEY AUTOINCREMENT,
+        Title TEXT NOT NULL,
+        Deadline DATE,
+        Status TEXT NOT NULL
+    );
+    ```
+- **C# adatbázis-kezelő osztály:**  
+    ```csharp
+    public class DatabaseHelper
+    {
+        private const string ConnectionString = "Data Source=Tasks.db;Version=3;";
+
+        public static void ExecuteQuery(string query)
+        {
+            using (var connection = new SQLiteConnection(ConnectionString))
+            {
+                connection.Open();
+                var command = new SQLiteCommand(query, connection);
+                command.ExecuteNonQuery();
+            }
+        }
+
+        public static DataTable GetData(string query)
+        {
+            using (var connection = new SQLiteConnection(ConnectionString))
+            {
+                connection.Open();
+                var command = new SQLiteCommand(query, connection);
+                var adapter = new SQLiteDataAdapter(command);
+                var table = new DataTable();
+                adapter.Fill(table);
+                return table;
+            }
+        }
+    }
+    ```
+
+---
+
+#### **3. UI fejlesztés WPF-ben (2 óra):**  
+- **Főablak tervezése:**  
+  - **Felületelemek:**
+    - `TextBox` a teendő címének megadásához.
+    - `DatePicker` a határidő kiválasztásához.
+    - `ComboBox` a státusz kiválasztásához (`Elvégzett`, `Nem elvégzett`).
+    - `DataGrid` a teendők listázásához.
+    - `Button` elemek: Hozzáadás, Szerkesztés, Törlés.
+- **Példa XAML:**
+    ```xml
+    <Grid Margin="10">
+        <StackPanel Orientation="Vertical">
+            <TextBox x:Name="TitleTextBox" PlaceholderText="Teendő címe" Margin="0,5" />
+            <DatePicker x:Name="DeadlinePicker" Margin="0,5" />
+            <ComboBox x:Name="StatusComboBox" Margin="0,5">
+                <ComboBoxItem Content="Nem elvégzett" />
+                <ComboBoxItem Content="Elvégzett" />
+            </ComboBox>
+            <StackPanel Orientation="Horizontal" Margin="0,10">
+                <Button Content="Hozzáadás" Click="AddButton_Click" Margin="5,0" />
+                <Button Content="Szerkesztés" Click="EditButton_Click" Margin="5,0" />
+                <Button Content="Törlés" Click="DeleteButton_Click" Margin="5,0" />
+            </StackPanel>
+            <DataGrid x:Name="TasksDataGrid" AutoGenerateColumns="True" Margin="0,10" />
+        </StackPanel>
+    </Grid>
+    ```
+
+---
+
+#### **4. Funkcionalitás fejlesztése (2 óra):**  
+- **Adatok hozzáadása:**
+    ```csharp
+    private void AddButton_Click(object sender, RoutedEventArgs e)
+    {
+        string title = TitleTextBox.Text;
+        string deadline = DeadlinePicker.SelectedDate?.ToString("yyyy-MM-dd");
+        string status = (StatusComboBox.SelectedItem as ComboBoxItem)?.Content.ToString();
+
+        string query = $"INSERT INTO Tasks (Title, Deadline, Status) VALUES ('{title}', '{deadline}', '{status}')";
+        DatabaseHelper.ExecuteQuery(query);
+
+        LoadTasks();
+    }
+    ```
+- **Adatok betöltése:**
+    ```csharp
+    private void LoadTasks()
+    {
+        string query = "SELECT * FROM Tasks";
+        TasksDataGrid.ItemsSource = DatabaseHelper.GetData(query).DefaultView;
+    }
+    ```
+
+---
+
+#### **5. Tesztelés és dokumentáció (2 óra):**  
+- **Automatizált tesztelés:**  
+  - NUnit vagy xUnit használata az adatbázis műveletek ellenőrzésére.  
+    ```csharp
+    [Fact]
+    public void TestAddTask()
+    {
+        string query = "INSERT INTO Tasks (Title, Deadline, Status) VALUES ('Teszt', '2025-01-01', 'Nem elvégzett')";
+        DatabaseHelper.ExecuteQuery(query);
+
+        var data = DatabaseHelper.GetData("SELECT * FROM Tasks WHERE Title = 'Teszt'");
+        Assert.NotEmpty(data.Rows);
+    }
+    ```
+- **Dokumentáció:**  
+  - Fejlesztési lépések, adatbázis-szerkezet, funkciók leírása.
+
+---
+
+### **Összehasonlítás a webes To-Do Listával:**  
+- A projekt célja és működése azonos, de:
+  - A webes verzió JavaScript/HTML/CSS és REST API-t használ.
+  - Az asztali verzió WPF és SQLite alapú, helyi adatbázis-kapcsolattal.
+  - UI dizájn eltér, de az adatok és a funkcionalitás azonos.
+
+---
+
+Ez a projekt segíti a diákokat abban, hogy megértsék, hogyan lehet különböző technológiákban ugyanazt a problémát megoldani. Ha részletesebb kódot vagy további kiegészítéseket szeretnél, jelezd! 😊

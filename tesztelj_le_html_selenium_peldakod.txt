@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapcsolatfelvétel</title>
+</head>
+<body>
+    <h2>Kapcsolatfelvételi űrlap</h2>
+    <form action="success.html" method="post">
+        <label>Üzenet tárgya:</label>
+        <input type="text"><br><br>
+
+        <label>Telefonszám:</label>
+        <input type="tel"><br><br>
+
+        <label>E-mail:</label>
+        <input type="email"><br><br>
+
+        <label>Kapcsolatfelvétel módja:</label>
+        <select>
+            <option>E-mail</option>
+            <option>Telefon</option>
+            <option>SMS</option>
+        </select><br><br>
+
+        <label>Születési dátum:</label>
+        <input type="date"><br><br>
+
+        <label>Nem:</label>
+        <input type="radio" value="male"> Férfi
+        <input type="radio" value="female"> Nő
+        <input type="radio" value="other"> Egyéb <br><br>
+
+        <label>Üzenet:</label><br>
+        <textarea rows="5" cols="40"></textarea><br><br>
+
+        <label>Csatolmány (pl. kép, dokumentum):</label>
+        <input type="file"><br><br>
+
+        <input type="checkbox"> Feliratkozom a hírlevélre<br><br>
+
+        <button type="submit">Üzenet küldése</button>
+    </form>
+</body>
+</html>

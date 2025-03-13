@@ -1,0 +1,63 @@
+using System;
+using System.Linq;
+
+public class Calculator
+{
+    public double Add(double a, double b) => a + b;
+
+    public double Subtract(double a, double b) => a - b;
+
+    public double Multiply(double a, double b) => a * b;
+
+    public double Divide(double a, double b)
+    {
+        if (b == 0) throw new DivideByZeroException("Nullával nem lehet osztani!");
+        return a / b;
+    }
+
+    public double Square(double a) => a * a;
+
+    public double SquareRoot(double a)
+    {
+        if (a < 0) throw new ArgumentException("Negatív számnak nincs valós gyöke!");
+        return Math.Sqrt(a);
+    }
+
+    public double Average(params double[] numbers)
+    {
+        if (numbers.Length == 0) throw new ArgumentException("Legalább egy szám szükséges az átlagszámításhoz!");
+        return numbers.Average();
+    }
+
+    public int GCD(int a, int b)  // Legnagyobb közös osztó (LNKO)
+    {
+        while (b != 0)
+        {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return Math.Abs(a);
+    }
+
+    public int LCM(int a, int b)  // Legkisebb közös többszörös (LKKT)
+    {
+        if (a == 0 || b == 0) throw new ArgumentException("Nullával nem lehet LKKT-t számolni!");
+        return Math.Abs(a * b) / GCD(a, b);
+    }
+
+    public bool IsEven(int number) => number % 2 == 0;
+
+    public bool IsPrime(int number)
+    {
+        if (number < 2) return false;
+        if (number == 2) return true;
+        if (number % 2 == 0) return false;
+
+        for (int i = 3; i <= Math.Sqrt(number); i += 2)
+        {
+            if (number % i == 0) return false;
+        }
+        return true;
+    }
+}
